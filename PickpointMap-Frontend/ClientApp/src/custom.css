@@ -1,14 +1,183 @@
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
+.App {
+  text-align: center;
 }
 
-code {
-  color: #E01A76;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 60s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.parent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    z-index: 1;
+}
+
+.App-logo2 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    z-index: 2;
+}
+
+
+.hexagon {
+    position: relative;
+    width: 300px;
+    height: 173px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 86px 0;
+    border-left: solid 10px #000000;
+    border-right: solid 10px #000000;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 212px;
+    height: 212px;
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 33px;
+}
+
+.hexagon:before {
+    top: -106px;
+    border-top: solid 14px #000000;
+    border-right: solid 14px #000000;
+}
+
+.hexagon:after {
+    bottom: -106px;
+    border-bottom: solid 14px #000000;
+    border-left: solid 14px #000000;
+}
+
+.demoFont {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #DB4925;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.circle-1 {
+    width: 30px;
+    height: 30px;
+    background: #DB4925;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: -94px;
+    left: 124px;
+    z-index: 2;
+}
+.circle-2 {
+    width: 30px;
+    height: 30px;
+    background: #DB4925;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: -41px;
+    left: 265px;
+    z-index: 2;
+}
+.circle-3 {
+    width: 30px;
+    height: 30px;
+    background: #DB4925;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 91px;
+    left: 268px;
+    z-index: 2;
+}
+.circle-4 {
+    width: 30px;
+    height: 30px;
+    background: #DB4925;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: -100px;
+    left: -15px;
+    z-index: 2;
+}
+.circle-5 {
+    width: 30px;
+    height: 30px;
+    background: #DB4925;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 116px;
+    left: 120px;
+    z-index: 2;
+}
+.circle-6 {
+    width: 30px;
+    height: 30px;
+    background: #DB4925;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 4px;
+    left: -17px;
+    z-index: 2;
 }
