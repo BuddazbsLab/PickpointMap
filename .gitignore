@@ -362,3 +362,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /PickpointMap-Frontend/.idea
+/.idea/.idea.PickpointMap/.idea
+/PickpointMap-Backend/PickpointMapWebAppLog-20220521.txt
+/PickpointMap-Backend/PickpointMapWebAppLog-20220522.txt

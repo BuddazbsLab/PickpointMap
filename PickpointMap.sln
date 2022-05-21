@@ -5,7 +5,13 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PickpointMap-Backend", "PickpointMap-Backend\PickpointMap-Backend.csproj", "{7E698126-996B-4D1E-BFBE-FD89A06BA516}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickpointMap-Frontend", "PickpointMap-Frontend\PickpointMap-Frontend.csproj", "{CE5507D2-3D46-4470-8115-A09A06188A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PickpointMap-Frontend", "PickpointMap-Frontend\PickpointMap-Frontend.csproj", "{CE5507D2-3D46-4470-8115-A09A06188A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pickpoint.Map.Application", "Pickpoint.Map.Application\Pickpoint.Map.Application.csproj", "{EBD46FBF-9E43-44AD-8A03-9501F0694B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pickpoint.Map.Domain", "Pickpoint.Map.Domain\Pickpoint.Map.Domain.csproj", "{74B84BC0-7FBF-4DE3-A3DF-C312344B16B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pickpoint.Map.Persistance", "Pickpoint.Map.Persistance\Pickpoint.Map.Persistance.csproj", "{8C59424F-3E2E-4531-B387-71AB949984C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{CE5507D2-3D46-4470-8115-A09A06188A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE5507D2-3D46-4470-8115-A09A06188A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE5507D2-3D46-4470-8115-A09A06188A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD46FBF-9E43-44AD-8A03-9501F0694B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD46FBF-9E43-44AD-8A03-9501F0694B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD46FBF-9E43-44AD-8A03-9501F0694B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD46FBF-9E43-44AD-8A03-9501F0694B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B84BC0-7FBF-4DE3-A3DF-C312344B16B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B84BC0-7FBF-4DE3-A3DF-C312344B16B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B84BC0-7FBF-4DE3-A3DF-C312344B16B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B84BC0-7FBF-4DE3-A3DF-C312344B16B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C59424F-3E2E-4531-B387-71AB949984C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C59424F-3E2E-4531-B387-71AB949984C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C59424F-3E2E-4531-B387-71AB949984C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C59424F-3E2E-4531-B387-71AB949984C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
