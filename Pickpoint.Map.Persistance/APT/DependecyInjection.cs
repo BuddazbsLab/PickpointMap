@@ -13,10 +13,10 @@ namespace PickpointMap_Backend.Persistence.APT
             var connectionString = configuration["DbConnection"];
             services.AddDbContext<PickpointMapDbContext>(options =>
             {
-                options.UseSqlite(connectionString);
+                options.UseSqlite("Data Source=PickpointMap.APT.db");
             });
             services.AddScoped<IPickpointMapDbContext>(provider =>
-                (IPickpointMapDbContext)provider.GetService<PickpointMapDbContext>());
+                 provider.GetService<PickpointMapDbContext>());
             return services;
         }
     }

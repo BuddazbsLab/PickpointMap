@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PickpointMap_Backend.Interface;
 using PickpointMap_Backend.Persistence.APT.EntityTypeConfigurations;
 
 namespace PickpointMap_Backend.Persistence.APT
 {
-    public class PickpointMapDbContext : DbContext
+    public class PickpointMapDbContext : DbContext, IPickpointMapDbContext
     {
-        public DbSet<PickpointMapDbContext> PickpointMaps { get; set; }
+        public DbSet<PickpointMapAll> PickpointMaps { get; set; }
 
         public PickpointMapDbContext(DbContextOptions<PickpointMapDbContext> options)
             : base(options) { }
