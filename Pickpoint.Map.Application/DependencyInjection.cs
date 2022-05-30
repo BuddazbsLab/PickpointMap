@@ -11,8 +11,8 @@ namespace Pickpoint.Map.Application.Common
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddMediatR(Assembly.GetExecutingAssembly());
-            //services.AddTransient(typeof(IPipelineBehavior<,>), typeof(IPipelineBehavior<,>));
-            //services.AddValidatorsFromAssemblies(new[] { Assembly.GetExecutingAssembly() });
+            //services.AddTransient(typeof(IPipelineBehavior<,>), typeof(Validationbehavior<,>));
+            services.AddValidatorsFromAssemblies(new[] { Assembly.GetExecutingAssembly() });
             return services;
         }
     }

@@ -22,7 +22,7 @@ namespace Pickpoint.Map.Application.PickpointMap.Commands.UpdateAPT
             }
 
             entity.Details = request.Details;
-            entity.Title = request.Title;
+            entity.NumberPoint = request.NumberPoint;
             entity.EditDate = DateTime.Now;
 
             await _dbContext.SaveChangesAsync(cancellationToken);

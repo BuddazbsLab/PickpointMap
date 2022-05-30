@@ -13,7 +13,7 @@ namespace Pickpoint.Map.Application.PickpointMap.Commands.CreateAPT
             var note = new PickpointMapAll
             {
                 UserId = request.UserId,
-                Title = request.Title,
+                NumberPoint = request.NumberPoint,
                 Details = request.Details,
                 Id = Guid.NewGuid(),
                 CreationDate = DateTime.Now,

@@ -7,7 +7,7 @@ namespace PickpointMap_Backend
         public int CountPoint { get; init; }
         public Guid UserId { get; set; }
         public string Details { get; set; }
-        public string Title { get; set; }
+        public string NumberPoint { get; set; }
         public DateTime? EditDate { get; set; }
         public DateTime CreationDate { get; set; }
     }
